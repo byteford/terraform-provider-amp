@@ -34,7 +34,7 @@ func Provider() *schema.Provider {
 			},
 		},
 		ResourcesMap: map[string]*schema.Resource{
-			//"homeauto_light": resourceLight(),
+			"amp_instance": resourceInstance(),
 		},
 		ConfigureContextFunc: providerConfigure,
 	}
