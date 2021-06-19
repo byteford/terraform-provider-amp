@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/byteford/terrafor-amp/amp"
+	"github.com/byteford/terraform-provider-amp/amp"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 )

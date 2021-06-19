@@ -1,4 +1,4 @@
-module github.com/byteford/terrafor-amp
+module github.com/byteford/terraform-provider-amp
 
 go 1.14
 
