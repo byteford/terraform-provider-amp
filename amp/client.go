@@ -64,7 +64,7 @@ func GetInstance(client Client, InstID string) (Instance, error) {
 }
 
 func apiCall(body []byte, endpoint, method string, client Client) ([]byte, error) {
-	url := fmt.Sprintf("%s/%s", client.HostURL, endpoint)
+	url := fmt.Sprintf("%s%s", client.HostURL, endpoint)
 	req, err := http.NewRequest(method, url, bytes.NewBuffer(body))
 	if err != nil {
 		return nil, err
