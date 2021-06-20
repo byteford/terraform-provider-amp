@@ -20,10 +20,6 @@ func resourceInstance() *schema.Resource {
 				Optional: true,
 				Computed: true,
 			},
-			"entity_id": &schema.Schema{
-				Type:     schema.TypeString,
-				Required: true,
-			},
 			"friendly_name": &schema.Schema{
 				Type:     schema.TypeString,
 				Required: true,
